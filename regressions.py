@@ -85,11 +85,6 @@ def logistic_regression(x, y, w, b):
 
 	return total_cost
 
-
-def k_nearest_nbd():
-	pass
-
-
 if __name__ == '__main__':
 	x = np.array([[0.2],[0.1],[0.05], [0.025]])
 	y = np.array([44.95, 29.25, 15.9, 6.5])
